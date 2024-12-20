@@ -5,6 +5,8 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X, ChevronDown, Phone, Search } from 'lucide-react'
+import Image from "next/image";
+
 
 import { cn } from "@/lib/utils"
 import {
@@ -75,7 +77,7 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <img src="/ARCLogo.png" alt="ARC Construction Logo" className="h-12 w-auto" />
+            <Image src="/ARCLogo.png" alt="ARC Construction Logo" width={50} height={50} className="h-12 w-auto" />
             {/* <span className="hidden font-bold sm:inline-block">ARC Construction</span> */}
           </Link>
 
@@ -206,7 +208,7 @@ function MobileMenu({ items, pathname, onClose }: {
     <nav className="flex flex-col gap-4">
       <div className="flex items-center justify-between mb-4">
         <Link href="/" className="flex items-center space-x-2" onClick={onClose}>
-          <img src="/logo.svg" alt="ARC Construction Logo" className="h-8 w-auto" />
+          <Image src="/logo.svg" alt="ARC Construction Logo" className="h-8 w-auto" />
           <span className="font-bold">ARC Construction</span>
         </Link>
         <Button variant="ghost" size="icon" onClick={onClose}>

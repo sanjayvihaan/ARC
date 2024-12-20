@@ -32,7 +32,7 @@ export const projects = [
 ];
 
 export const OurServices = () => {
-  let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
 

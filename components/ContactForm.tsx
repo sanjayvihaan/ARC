@@ -63,7 +63,7 @@ export function ContactForm() {
       <CardHeader>
         <CardTitle>Contact Us</CardTitle>
         <CardDescription>
-          Have questions or need support? Reach out to us and we'll get back to you.
+          Have questions or need support? Reach out to us and we&apos;ll get back to you.
         </CardDescription>
       </CardHeader>
       <CardContent>

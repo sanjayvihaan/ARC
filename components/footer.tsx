@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
             <h3 className="font-semibold mb-4">ARC Construction</h3>
-            <p className="text-sm text-muted-foreground">Building tomorrow's spaces today.</p>
+            <p className="text-sm text-muted-foreground">Building tomorrow&apos;s spaces today.</p>
           </div>
           <div>
             <h3 className="font-semibold mb-4">Quick Links</h3>

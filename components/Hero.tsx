@@ -1,11 +1,16 @@
+import Image from "next/image";
+
+
+
 export default function Hero() {
     return (
       <section className="relative h-screen">
         <div className="absolute inset-0">
-          <img
+          <Image
             src="/HeroImg.png"
             alt="Industrial Building"
             className="w-full h-full object-cover"
+            fill
           />
           <div className="absolute inset-0 bg-black/40" />
         </div>

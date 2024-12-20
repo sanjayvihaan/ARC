@@ -1,5 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import { Button } from "@/components/ui/button"
+import Image from "next/image";
+
 
 export default function About() {
   return (
@@ -39,10 +41,12 @@ export default function About() {
                 key={index}
                 className="relative h-[600px] overflow-hidden rounded-[40px] first:mt-12 last:mt-24"
               >
-                <img
+                <Image
                   src={src}
                   alt={`Building showcase ${index + 1}`}
                   className="h-full w-full object-cover"
+                  width={100}
+                  height={100}
                 />
               </div>
             ))}
