@@ -97,7 +97,7 @@ export function Navbar() {
                                 title={subItem.title}
                                 href={subItem.href}
                               >
-                                {subItem.description}
+                                {/* {subItem.description} */}
                               </ListItem>
                             ))}
                           </ul>
